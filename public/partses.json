@@ -1,0 +1,72 @@
+[
+    {
+        "name": "architectural-cable-railings",
+        " image": "https://i.ibb.co/mtWJT0T/wire-rope-new.jpg",
+        "description": "The metal core wire rope can be used for heat shift steel rolling and excavator hoisting.",
+        "minOrder": 3,
+        "availableQuantity": "18",
+        "price": 2
+    },
+    {
+        "id": 1,
+        "name": " bungee-cords",
+        "image": "https://i.ibb.co/SddXGvq/bungee-cords.webp",
+        "description": " For elevator and lifting, also can be used in oil well drilling",
+        "minOrder": 3,
+        "availableQuantity": 18,
+        " price": 21
+    },
+    {
+        "id": 2,
+        "name": " hardware-tools",
+        "image": "https://i.ibb.co/ZYmT9BG/cable-automotive.webp",
+        "description": " Blast furnace hoisting, belt conveyer, cableway towing, cable car, ship loading and unloading",
+        "minOrder": 3,
+        "availableQuantity": 18,
+        " price": 4
+    },
+    {
+        "id": 3,
+        "name": " push-pull-control",
+        "image": "https://i.ibb.co/9p4nxtK/hardware-tools.webp",
+        "description": " High Quality Steel Wire Strand ----Suitable for Hanging Communication Cable 1*7-3.18mm",
+        "minOrder": 3,
+        "availableQuantity": 18,
+        " price": 7
+    },
+    {
+        "id": 4,
+        "name": " wire-rope",
+        "image": "https: //i.ibb.co/7xf2cjr/push-pull-control.webp",
+        "description": " it can also be packed as per your requirements,light weight",
+        "minOrder": 3,
+        "availableQuantity": 18,
+        " price": 9
+    },
+    {
+        "id": 5,
+        "name": " wire-rope-fittings",
+        "image": "https: //i.ibb.co/fHfyhPr/wire-rope.webp",
+        "description": " One head one roll,in single length,without breaks quantity in one 20ft container: 25 tons",
+        "minOrder": 3,
+        "availableQuantity": 18,
+        " price": 16
+    },
+    {
+        "id": 6,
+        "name": "  Galvanized Steel Wire",
+        "image": "https: //i.ibb.co/8DH028d/wire-rope-fittings.webp",
+        "description": " Construction Wire Mesh, Protecting Mesh, Fence Mesh, Decorative Mesh, Screen, Gabion Mesh",
+        "minOrder": 3,
+        "availableQuantity": 18,
+        " price": 2
+    },
+    {
+        "name": " cable-automotive",
+        "image": "https://i.ibb.co/SddXGvq/bungee-cords.webp",
+        "description": "Various equipment for derricking, lifting and drawing.",
+        "minOrder": 3,
+        "availableQuantity": 18,
+        " price": 2
+    }
+]
