@@ -1,8 +1,9 @@
 import React from 'react';
-import img1 from '../../../assets/images/hundreds-of-unique-designs.jpg'
+import img1 from '../../../assets/images/guides.jpg'
+import img4 from '../../../assets/images/hundreds-of-unique-designs.jpg'
 import img2 from '../../../assets/images/cable-capabilities-and-services.png'
 import img3 from '../../../assets/images/custom-wire-rope-assemblies-n-1-comp.jpg'
-import img4 from '../../../assets/images/motion-control-solutions.jpg'
+
 const Banner = () => {
     return (
         <div className='w-full px-12'>
