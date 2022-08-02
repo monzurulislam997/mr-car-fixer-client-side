@@ -10,6 +10,7 @@ import BlogDetails from './Componnets/Blogs/BlogDetails';
 import Blogs from './Componnets/Blogs/Blogs';
 import Contact from './Componnets/Contact/Contact';
 import AddProduct from './Componnets/Dashboard/AddProducts';
+import AddReview from './Componnets/Dashboard/AddReview';
 import AllOrders from './Componnets/Dashboard/AllOrders';
 import AllUsers from './Componnets/Dashboard/AllUsers';
 import Dashboard from './Componnets/Dashboard/Dashboard';
@@ -18,7 +19,10 @@ import Orders from './Componnets/Dashboard/Orders';
 import Payment from './Componnets/Dashboard/Payment';
 import Welcome from './Componnets/Dashboard/Welcome';
 import Page404 from './Componnets/Errors/Page404';
+
 import Home from './Componnets/Home/Home';
+import Myprofile from './Componnets/MyProfile/Myprofile';
+import Portfolio from './Componnets/Portfolio/Portfolio';
 import Loader from './Componnets/Shared/Loader';
 import Navbar from './Componnets/Shared/Navbar';
 import ServicesDetails from './Componnets/Shop/Details/ServicesDetails';
@@ -30,7 +34,7 @@ export default function App() {
         setLoading(true);
         setTimeout(() => {
             setLoading(false);
-        }, 3000);
+        }, 1000);
     }, []);
 
     return (
@@ -48,6 +52,8 @@ export default function App() {
                     <Route path="/contact" element={<Contact />} />
                     <Route path="/blogs" element={<Blogs />} />
                     <Route path="/blogs/:id" element={<BlogDetails />} />
+                    <Route path="/portfolio" element={<Portfolio />} />
+                    <Route path="/dashboard/myprofile" element={<Myprofile />} />
 
                     <Route path="/login" element={<Login />} />
                     <Route path="/register" element={<Register />} />
@@ -58,6 +64,7 @@ export default function App() {
                         <Route index element={<Welcome />} />
                         <Route path="orders" element={<Orders />} />
                         <Route path="payment/:id" element={<Payment />} />
+                        <Route path="addReview" element={<AddReview />} />
                         <Route path="allOrders" element={<RequiredAdmin><AllOrders /></RequiredAdmin>} />
                         <Route path="addProduct" element={<RequiredAdmin><AddProduct /></RequiredAdmin>} />
                         <Route path="users" element={<RequiredAdmin><AllUsers /></RequiredAdmin>} />
@@ -71,4 +78,4 @@ export default function App() {
             </div>
         </div>
     )
-}
+} 
