@@ -50,7 +50,7 @@ export default function Users({ user, index, refetch }) {
         }).then((result) => {
             if (result.value) {
 
-                fetch(`http://localhost:5500/api/user/${email}`, {
+                fetch(`https://murmuring-coast-74954.herokuapp.com/api/user/${email}`, {
                     method: 'DELETE',
                     headers: {
                         authorization: `Bearer ${localStorage.getItem('aceessToken')}`

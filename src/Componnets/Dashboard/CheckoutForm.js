@@ -81,7 +81,7 @@ export default function CheckoutForm({ id, price, email, userName }) {
                 appointmentId: id,
                 email: email,
             }
-            axios.patch(`http://localhost:5500/api/order/${id}`, payment, {
+            axios.patch(`https://murmuring-coast-74954.herokuapp.com/api/order/${id}`, payment, {
                 headers: {
                     authorization: `Bearer ${localStorage.getItem('aceessToken')}`
                 }

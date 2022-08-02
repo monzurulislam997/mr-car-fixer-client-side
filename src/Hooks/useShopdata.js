@@ -5,7 +5,7 @@ const useShopdata = () => {
     useEffect(() => {
         const fetchData = async () => {
             const response = await fetch(
-                "http://localhost:5500/api/services", {
+                "https://murmuring-coast-74954.herokuapp.com/api/services", {
                 method: "GET",
                 headers: {
                     authorization: `Bearer ${localStorage.getItem('aceessToken')}`

@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# Mr Car Fixer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live site [mr car fixer](https://mr-car-fixer.web.app/).
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+### About This Site
+1. This site is about tools manufracture.
+2. Home page contain 7 section.
+3. Without login you can see only 5 routes.
+4. If an user log in ,he will see more routes like portfloio my order etc
+5. With the admin password ,  an admin can see more routes like add item, mange item ,all orders etc.
+6. Special function is , the site has payment getway function. That means you can pay through payment funtion.
+7. Private route also implemented for this site
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Technologies useges in this website:
+  - [HTML](https://www.w3schools.com/html/html_intro.asp)
+  - [CSS](https://www.w3schools.com/css/css_intro.asp)
+  - [JavaScript](https://www.w3schools.com/js/js_intro.asp)
+  - [Tailwind](https://tailwindcss.com/)
+  - [React](https://reactjs.org/)
+  - [Daisy Ui](https://daisy.design/)
+  - [Axios](https://axios-http.com/docs/intro)
+  - [React Icon](https://react-icons.netlify.com/)
+  - [Firebase](https://firebase.google.com/)
+  - [Auto prefixier](https://autoprefixer.github.io/)
+  - [Post Css](https://postcss.org/)
+  - [React Helmet](https://react-helmet.github.io/)
+  - [React Hot Toasts](https://react-hot-toasts.github.io/)
+  - [React Router Dom](https://reacttraining.com/react-router/web/guides/quick-start)

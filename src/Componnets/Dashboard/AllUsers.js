@@ -7,7 +7,7 @@ import Users from "./Users"
 
 
 export default function AllUsers() {
-    const { data: users, isLoading, refetch } = useQuery(['available'], () => axios.get(`http://localhost:5500/api/users`,
+    const { data: users, isLoading, refetch } = useQuery(['available'], () => axios.get(`https://murmuring-coast-74954.herokuapp.com/api/users`,
         {
             headers: {
                 authorization: `Bearer ${localStorage.getItem('aceessToken')}`
